@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "allowJs": true,
+      "strict": true,
+      "moduleResolution": "node",
+      "typeRoots": ["./node_modules/@types"],
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true 
+    },
+    "include": ["./*", "./**/*"],
+    "exclude": ["./node_modules"]
+}
